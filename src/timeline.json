@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Country-Based Product API Filtering",
     "description": "Modify existing product APIs to support country-based filtering",
-    "status": "pending",
+    "status": "in-progress",
     "completedOn": null,
     "section": "Backend API & Architecture"
   },
