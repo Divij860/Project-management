@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "title": "Country-Based Product API Filtering",
+    "description": "Modify existing product APIs to support country-based filtering",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Backend API & Architecture"
+  },
+  {
+    "id": 2,
+    "title": "Dynamic Country-Aware API Endpoints",
+    "description": "Update all API endpoints to fetch and manage data based on selected country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Backend API & Architecture"
+  },
+  {
+    "id": 3,
+    "title": "Backward Compatibility for UAE Platform",
+    "description": "Ensure existing UAE products and features remain unaffected",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Backend API & Architecture"
+  },
+  {
+    "id": 4,
+    "title": "Scalable Multi-Country API Design",
+    "description": "Design APIs to support future country additions without refactoring",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Backend API & Architecture"
+  },
+  {
+    "id": 5,
+    "title": "Product Schema Country Identifier",
+    "description": "Extend product schema with country or region identifier",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Database & Product Schema"
+  },
+  {
+    "id": 6,
+    "title": "UAE Product Data Migration",
+    "description": "Migrate existing products and map them to the UAE region",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Database & Product Schema"
+  },
+  {
+    "id": 7,
+    "title": "Country-Specific Pricing & Availability",
+    "description": "Upgrade database to support country-based pricing and availability",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Database & Product Schema"
+  },
+  {
+    "id": 8,
+    "title": "Database Indexing Optimization",
+    "description": "Ensure optimized indexing and performance after schema changes",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Database & Product Schema"
+  },
+  {
+    "id": 9,
+    "title": "UAE & India Admin Panels Setup",
+    "description": "Implement two independent admin panels for UAE and India",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Admin Panels"
+  },
+  {
+    "id": 10,
+    "title": "Separate Admin Authentication",
+    "description": "Configure independent login credentials for each admin panel",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Admin Panels"
+  },
+  {
+    "id": 11,
+    "title": "Country-Restricted Product Management",
+    "description": "Ensure products appear only in their respective country storefront",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Admin Panels"
+  },
+  {
+    "id": 12,
+    "title": "Admin Data Access Restriction",
+    "description": "Restrict admin visibility to country-specific data only",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Admin Panels"
+  },
+  {
+    "id": 13,
+    "title": "Country-Based Product Listings in Admin",
+    "description": "Filter admin product listings by selected country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Admin Data Filtering"
+  },
+  {
+    "id": 14,
+    "title": "Country-Specific Order Management",
+    "description": "Display orders based on the admin’s country context",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Admin Data Filtering"
+  },
+  {
+    "id": 15,
+    "title": "Country-Aware Admin CRUD Operations",
+    "description": "Ensure add, update, and delete operations respect country rules",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Admin Data Filtering"
+  },
+  {
+    "id": 16,
+    "title": "Admin Data Validation by Country",
+    "description": "Validate product visibility and order accuracy per country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Admin Data Filtering"
+  },
+  {
+    "id": 17,
+    "title": "Frontend Country-Based Product Rendering",
+    "description": "Render products based on selected country on storefront",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Frontend Logic"
+  },
+  {
+    "id": 18,
+    "title": "Country Parameter in Frontend APIs",
+    "description": "Pass selected country in all frontend API calls",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Frontend Logic"
+  },
+  {
+    "id": 19,
+    "title": "Country-Restricted Customer Product View",
+    "description": "Ensure customers view only country-relevant products",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Frontend Logic"
+  },
+  {
+    "id": 20,
+    "title": "Consistent UI with Localized Content",
+    "description": "Maintain unified UI while supporting localized content",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Frontend Logic"
+  },
+  {
+    "id": 21,
+    "title": "Manual Country Selection UI",
+    "description": "Implement dropdown or modal for country selection",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Country Selection"
+  },
+  {
+    "id": 22,
+    "title": "Persist Selected Country",
+    "description": "Store selected country using localStorage or cookies",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Country Selection"
+  },
+  {
+    "id": 23,
+    "title": "IP-Based Country Detection Preparation",
+    "description": "Prepare architecture for future IP-based auto-detection",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Country Selection"
+  },
+  {
+    "id": 24,
+    "title": "Seamless Country Switching",
+    "description": "Allow smooth switching without UX disruption",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Country Selection"
+  },
+  {
+    "id": 25,
+    "title": "Country-Specific Pricing Logic",
+    "description": "Enable pricing structures per country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Pricing & Checkout"
+  },
+  {
+    "id": 26,
+    "title": "Dynamic Currency Display",
+    "description": "Display currency based on selected country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Pricing & Checkout"
+  },
+  {
+    "id": 27,
+    "title": "Country-Aware Checkout Calculations",
+    "description": "Handle tax, totals, and pricing per country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Pricing & Checkout"
+  },
+  {
+    "id": 28,
+    "title": "Checkout Validation Across Regions",
+    "description": "Validate checkout flow for UAE and India",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Pricing & Checkout"
+  },
+  {
+    "id": 29,
+    "title": "Country-Based Promo Codes",
+    "description": "Extend promo code system to support country restrictions",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Promotions"
+  },
+  {
+    "id": 30,
+    "title": "Promo Code Eligibility Validation",
+    "description": "Ensure promo codes apply only to valid products and users",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Promotions"
+  },
+  {
+    "id": 31,
+    "title": "Promo Code Flow Testing",
+    "description": "Validate promo codes in admin and frontend flows",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Promotions"
+  },
+  {
+    "id": 32,
+    "title": "UAE Stripe Payment Gateway",
+    "description": "Maintain Stripe for UAE payments",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Payments"
+  },
+  {
+    "id": 33,
+    "title": "India Payment Gateway Integration",
+    "description": "Integrate India-supported payment gateway",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Payments"
+  },
+  {
+    "id": 34,
+    "title": "Country-Based Payment Switching",
+    "description": "Switch payment gateways based on selected country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Payments"
+  },
+  {
+    "id": 35,
+    "title": "Secure Transaction Validation",
+    "description": "Validate payment security and confirmations",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Payments"
+  },
+  {
+    "id": 36,
+    "title": "Indian Address & Phone Support",
+    "description": "Update address schema for Indian formats",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Address & Contact"
+  },
+  {
+    "id": 37,
+    "title": "Dynamic Address Validation",
+    "description": "Apply validation rules based on selected country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Address & Contact"
+  },
+  {
+    "id": 38,
+    "title": "Preserve UAE Address Logic",
+    "description": "Maintain existing UAE address validations",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Address & Contact"
+  },
+  {
+    "id": 39,
+    "title": "Country-Specific Banners",
+    "description": "Implement banners based on country selection",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Content & Marketing"
+  },
+  {
+    "id": 40,
+    "title": "Country-Based Flash Sale Configuration",
+    "description": "Enable flash sales per country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Content & Marketing"
+  },
+  {
+    "id": 41,
+    "title": "Country-Relevant Product Sections",
+    "description": "Update Best of Sale, Best of Kids, and Upcoming Products",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Content & Marketing"
+  },
+  {
+    "id": 42,
+    "title": "Country Product Visibility Testing",
+    "description": "Validate correct product visibility per country",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Testing & QA"
+  },
+  {
+    "id": 43,
+    "title": "Admin Panel Testing",
+    "description": "Test UAE and India admin panels independently",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Testing & QA"
+  },
+  {
+    "id": 44,
+    "title": "Regression Testing for UAE",
+    "description": "Ensure existing UAE functionality remains stable",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Testing & QA"
+  },
+  {
+    "id": 45,
+    "title": "Post-Deployment Performance Validation",
+    "description": "Verify database and API performance after upgrade",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Testing & QA"
+  },
+  {
+    "id": 46,
+    "title": "Future Country Scalability",
+    "description": "Ensure architecture supports easy onboarding of new countries",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Scalability"
+  },
+  {
+    "id": 47,
+    "title": "Modular System Design",
+    "description": "Keep database, APIs, and admin panels extensible",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Scalability"
+  },
+  {
+    "id": 48,
+    "title": "International Expansion Readiness",
+    "description": "Minimize future development effort for new regions",
+    "status": "pending",
+    "completedOn": null,
+    "section": "Scalability"
+  }
+]
