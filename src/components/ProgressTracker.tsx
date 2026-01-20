@@ -10,7 +10,7 @@ interface ProgressTrackerProps {
 export default function ProgressTracker({ completedCount, totalCount, percentage }: ProgressTrackerProps) {
   return (
     <div className="sticky top-0 z-50 bg-white shadow-lg border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <motion.div
@@ -23,7 +23,7 @@ export default function ProgressTracker({ completedCount, totalCount, percentage
                 <circle
                   cx="64"
                   cy="64"
-                  r="56"
+                  r="46"
                   stroke="#e5e7eb"
                   strokeWidth="8"
                   fill="none"
@@ -31,7 +31,7 @@ export default function ProgressTracker({ completedCount, totalCount, percentage
                 <motion.circle
                   cx="64"
                   cy="64"
-                  r="56"
+                  r="46"
                   stroke="#10b981"
                   strokeWidth="8"
                   fill="none"
@@ -43,7 +43,7 @@ export default function ProgressTracker({ completedCount, totalCount, percentage
               </svg>
               <div className="absolute inset-0 flex items-center justify-center">
                 <motion.span
-                  className="text-3xl font-bold text-gray-800"
+                  className="text-2xl font-bold text-gray-800"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.5 }}
@@ -55,7 +55,7 @@ export default function ProgressTracker({ completedCount, totalCount, percentage
 
             <div className="text-left">
               <motion.h1
-                className="text-3xl md:text-4xl font-bold text-gray-900 mb-2"
+                className="text-3xl md:text-3xl font-bold text-gray-900 mb-1"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
@@ -63,7 +63,7 @@ export default function ProgressTracker({ completedCount, totalCount, percentage
                 Cokomi Project Timeline
               </motion.h1>
               <motion.p
-                className="text-lg text-gray-600 mb-1"
+                className="text-md text-gray-600 mb-1"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3 }}

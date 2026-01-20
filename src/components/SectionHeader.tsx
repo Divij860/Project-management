@@ -63,10 +63,10 @@ export default function SectionHeader({ section, index }: SectionHeaderProps) {
       transition={{ duration: 0.5, delay: index * 0.08 }}
     >
       <div
-        className={`inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r ${gradient} text-white shadow-lg`}
+        className={`inline-flex items-center gap-3 px-5 py-2 rounded-full bg-gradient-to-r ${gradient} text-white shadow-lg`}
       >
         {icon}
-        <h2 className="text-xl font-bold">{section}</h2>
+        <h2 className="text-md font-bold">{section}</h2>
       </div>
     </motion.div>
   );

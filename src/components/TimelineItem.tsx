@@ -24,7 +24,7 @@ export default function TimelineItem({
     switch (status) {
       case 'completed':
         return {
-          icon: <CheckCircle2 className="w-6 h-6 text-white" />,
+          icon: <CheckCircle2 className="w-5 h-5 text-white" />,
           bgColor: 'bg-green-500',
           badgeColor: 'bg-green-100 text-green-800',
           badgeText: 'Completed',
@@ -32,15 +32,15 @@ export default function TimelineItem({
         };
       case 'in-progress':
         return {
-          icon: <Clock className="w-6 h-6 text-white" />,
-          bgColor: 'bg-blue-500',
-          badgeColor: 'bg-blue-100 text-blue-800',
+          icon: <Clock className="w-5 h-5 text-white" />,
+          bgColor: 'bg-orange-500',
+          badgeColor: 'bg-orange-100 text-orange-800',
           badgeText: 'In Progress',
-          lineColor: 'bg-gradient-to-b from-green-500 to-blue-500',
+          lineColor: 'bg-gradient-to-b from-orange-500 to-green-500',
         };
       default:
         return {
-          icon: <Circle className="w-6 h-6 text-white" />,
+          icon: <Circle className="w-5 h-5 text-white" />,
           bgColor: 'bg-gray-400',
           badgeColor: 'bg-gray-100 text-gray-800',
           badgeText: 'Pending',
@@ -61,31 +61,31 @@ export default function TimelineItem({
     >
       <div className="flex flex-col items-center">
         <motion.div
-          className={`${config.bgColor} rounded-full p-3 shadow-lg z-10 relative`}
+          className={`${config.bgColor} rounded-full p-2 shadow-lg z-10 relative`}
           whileHover={{ scale: 1.1 }}
           transition={{ type: "spring", stiffness: 400 }}
         >
           {config.icon}
           {status === 'in-progress' && (
             <motion.span
-              className="absolute inset-0 rounded-full bg-blue-400"
+              className="absolute inset-0 rounded-full bg-orange-400"
               animate={{ scale: [1, 1.3, 1], opacity: [0.5, 0, 0.5] }}
               transition={{ duration: 2, repeat: Infinity }}
             />
           )}
         </motion.div>
         {!isLast && (
-          <div className={`w-1 flex-1 mt-2 ${status === 'completed' ? 'bg-green-500' : config.lineColor}`} />
+          <div className={`w-1 flex-1 ${status === 'completed' ? 'bg-green-500' : config.lineColor}`} />
         )}
       </div>
 
       <motion.div
-        className="flex-1 bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 p-6 mb-8 border border-gray-100"
+        className="flex-1 bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 p-4 mb-6 border border-gray-100"
         whileHover={{ y: -2 }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <div className="flex items-start justify-between gap-4 mb-3">
-          <div className="flex items-center gap-3">
+        <div className="flex items-start justify-between gap-3 mb-2">
+          <div className="flex items-center gap-2">
             <span className="text-sm font-bold text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
               Step {id}
             </span>
@@ -104,8 +104,8 @@ export default function TimelineItem({
           )}
         </div>
 
-        <h3 className="text-xl font-bold text-gray-900 mb-2">{title}</h3>
-        <p className="text-gray-600 leading-relaxed">{description}</p>
+        <h3 className="text-md font-bold text-gray-900 mb-2">{title}</h3>
+        <p className="text-gray-600 text-sm leading-relaxed">{description}</p>
       </motion.div>
     </motion.div>
   );
