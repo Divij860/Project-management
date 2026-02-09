@@ -283,7 +283,7 @@
     "id": 36,
     "title": "Indian Address & Phone Support",
     "description": "Update address schema for Indian formats",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Address & Contact"
   },
@@ -291,7 +291,7 @@
     "id": 37,
     "title": "Dynamic Address Validation",
     "description": "Apply validation rules based on selected country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Address & Contact"
   },
@@ -299,7 +299,7 @@
     "id": 38,
     "title": "Preserve UAE Address Logic",
     "description": "Maintain existing UAE address validations",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Address & Contact"
   },
@@ -315,7 +315,7 @@
     "id": 40,
     "title": "Country-Based Flash Sale Configuration",
     "description": "Enable flash sales per country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Content & Marketing"
   },
@@ -363,7 +363,7 @@
     "id": 46,
     "title": "Future Country Scalability",
     "description": "Ensure architecture supports easy onboarding of new countries",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Scalability"
   },
@@ -379,7 +379,7 @@
     "id": 48,
     "title": "International Expansion Readiness",
     "description": "Minimize future development effort for new regions",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Scalability"
   }
