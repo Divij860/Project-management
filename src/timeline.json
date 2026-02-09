@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Country-Based Product API Filtering",
     "description": "Modify existing product APIs to support country-based filtering",
-    "status": "in-progress",
+    "status": "completed",
     "completedOn": null,
     "section": "Backend API & Architecture"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Dynamic Country-Aware API Endpoints",
     "description": "Update all API endpoints to fetch and manage data based on selected country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Backend API & Architecture"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Backward Compatibility for UAE Platform",
     "description": "Ensure existing UAE products and features remain unaffected",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Backend API & Architecture"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Scalable Multi-Country API Design",
     "description": "Design APIs to support future country additions without refactoring",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Backend API & Architecture"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "Product Schema Country Identifier",
     "description": "Extend product schema with country or region identifier",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Database & Product Schema"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "UAE Product Data Migration",
     "description": "Migrate existing products and map them to the UAE region",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Database & Product Schema"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "title": "Database Indexing Optimization",
     "description": "Ensure optimized indexing and performance after schema changes",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Database & Product Schema"
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "title": "Frontend Country-Based Product Rendering",
     "description": "Render products based on selected country on storefront",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Frontend Logic"
   },
@@ -139,7 +139,7 @@
     "id": 18,
     "title": "Country Parameter in Frontend APIs",
     "description": "Pass selected country in all frontend API calls",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Frontend Logic"
   },
@@ -147,7 +147,7 @@
     "id": 19,
     "title": "Country-Restricted Customer Product View",
     "description": "Ensure customers view only country-relevant products",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Frontend Logic"
   },
@@ -155,7 +155,7 @@
     "id": 20,
     "title": "Consistent UI with Localized Content",
     "description": "Maintain unified UI while supporting localized content",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Frontend Logic"
   },
@@ -171,7 +171,7 @@
     "id": 22,
     "title": "Persist Selected Country",
     "description": "Store selected country using localStorage or cookies",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Country Selection"
   },
@@ -323,7 +323,7 @@
     "id": 41,
     "title": "Country-Relevant Product Sections",
     "description": "Update Best of Sale, Best of Kids, and Upcoming Products",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Content & Marketing"
   },
