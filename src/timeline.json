@@ -51,7 +51,7 @@
     "id": 7,
     "title": "Country-Specific Pricing & Availability",
     "description": "Upgrade database to support country-based pricing and availability",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Database & Product Schema"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "title": "Country-Restricted Product Management",
     "description": "Ensure products appear only in their respective country storefront",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Admin Panels"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "title": "Country-Based Product Listings in Admin",
     "description": "Filter admin product listings by selected country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Admin Data Filtering"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "title": "Country-Aware Admin CRUD Operations",
     "description": "Ensure add, update, and delete operations respect country rules",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Admin Data Filtering"
   },
@@ -187,7 +187,7 @@
     "id": 24,
     "title": "Seamless Country Switching",
     "description": "Allow smooth switching without UX disruption",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Country Selection"
   },
@@ -235,7 +235,7 @@
     "id": 30,
     "title": "Promo Code Eligibility Validation",
     "description": "Ensure promo codes apply only to valid products and users",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Promotions"
   },
@@ -331,7 +331,7 @@
     "id": 42,
     "title": "Country Product Visibility Testing",
     "description": "Validate correct product visibility per country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Testing & QA"
   },
@@ -347,7 +347,7 @@
     "id": 44,
     "title": "Regression Testing for UAE",
     "description": "Ensure existing UAE functionality remains stable",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Testing & QA"
   },
