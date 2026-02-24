@@ -67,7 +67,7 @@
     "id": 9,
     "title": "UAE & India Admin Panels Setup",
     "description": "Implement two independent admin panels for UAE and India",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Admin Panels"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "title": "Separate Admin Authentication",
     "description": "Configure independent login credentials for each admin panel",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Admin Panels"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "title": "Admin Data Access Restriction",
     "description": "Restrict admin visibility to country-specific data only",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Admin Panels"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "title": "Admin Data Validation by Country",
     "description": "Validate product visibility and order accuracy per country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Admin Data Filtering"
   },
@@ -163,7 +163,7 @@
     "id": 21,
     "title": "Manual Country Selection UI",
     "description": "Implement dropdown or modal for country selection",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Country Selection"
   },
@@ -179,7 +179,7 @@
     "id": 23,
     "title": "IP-Based Country Detection Preparation",
     "description": "Prepare architecture for future IP-based auto-detection",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Country Selection"
   },
@@ -195,7 +195,7 @@
     "id": 25,
     "title": "Country-Specific Pricing Logic",
     "description": "Enable pricing structures per country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Pricing & Checkout"
   },
@@ -203,7 +203,7 @@
     "id": 26,
     "title": "Dynamic Currency Display",
     "description": "Display currency based on selected country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Pricing & Checkout"
   },
@@ -211,7 +211,7 @@
     "id": 27,
     "title": "Country-Aware Checkout Calculations",
     "description": "Handle tax, totals, and pricing per country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Pricing & Checkout"
   },
@@ -219,7 +219,7 @@
     "id": 28,
     "title": "Checkout Validation Across Regions",
     "description": "Validate checkout flow for UAE and India",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Pricing & Checkout"
   },
@@ -227,7 +227,7 @@
     "id": 29,
     "title": "Country-Based Promo Codes",
     "description": "Extend promo code system to support country restrictions",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Promotions"
   },
@@ -243,7 +243,7 @@
     "id": 31,
     "title": "Promo Code Flow Testing",
     "description": "Validate promo codes in admin and frontend flows",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Promotions"
   },
@@ -251,7 +251,7 @@
     "id": 32,
     "title": "UAE Stripe Payment Gateway",
     "description": "Maintain Stripe for UAE payments",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Payments"
   },
@@ -259,7 +259,7 @@
     "id": 33,
     "title": "India Payment Gateway Integration",
     "description": "Integrate India-supported payment gateway",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Payments"
   },
@@ -267,7 +267,7 @@
     "id": 34,
     "title": "Country-Based Payment Switching",
     "description": "Switch payment gateways based on selected country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Payments"
   },
@@ -275,7 +275,7 @@
     "id": 35,
     "title": "Secure Transaction Validation",
     "description": "Validate payment security and confirmations",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Payments"
   },
@@ -291,7 +291,7 @@
     "id": 37,
     "title": "Dynamic Address Validation",
     "description": "Apply validation rules based on selected country",
-    "status": "completed",
+    "status": "pending",
     "completedOn": null,
     "section": "Address & Contact"
   },
@@ -371,7 +371,7 @@
     "id": 47,
     "title": "Modular System Design",
     "description": "Keep database, APIs, and admin panels extensible",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Scalability"
   },
@@ -379,7 +379,7 @@
     "id": 48,
     "title": "International Expansion Readiness",
     "description": "Minimize future development effort for new regions",
-    "status": "completed",
+    "status": "pending",
     "completedOn": null,
     "section": "Scalability"
   }
