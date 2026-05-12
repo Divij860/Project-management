@@ -107,7 +107,7 @@
     "id": 14,
     "title": "Country-Specific Order Management",
     "description": "Display orders based on the admin’s country context",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Admin Data Filtering"
   },
@@ -259,7 +259,7 @@
     "id": 33,
     "title": "India Payment Gateway Integration",
     "description": "Integrate India-supported payment gateway",
-    "status": "completed",
+    "status": "pending",
     "completedOn": null,
     "section": "Payments"
   },
@@ -267,7 +267,7 @@
     "id": 34,
     "title": "Country-Based Payment Switching",
     "description": "Switch payment gateways based on selected country",
-    "status": "completed",
+    "status": "pending",
     "completedOn": null,
     "section": "Payments"
   },
@@ -275,7 +275,7 @@
     "id": 35,
     "title": "Secure Transaction Validation",
     "description": "Validate payment security and confirmations",
-    "status": "completed",
+    "status": "pending",
     "completedOn": null,
     "section": "Payments"
   },
@@ -291,7 +291,7 @@
     "id": 37,
     "title": "Dynamic Address Validation",
     "description": "Apply validation rules based on selected country",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Address & Contact"
   },
@@ -307,7 +307,7 @@
     "id": 39,
     "title": "Country-Specific Banners",
     "description": "Implement banners based on country selection",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Content & Marketing"
   },
@@ -339,7 +339,7 @@
     "id": 43,
     "title": "Admin Panel Testing",
     "description": "Test UAE and India admin panels independently",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Testing & QA"
   },
@@ -355,7 +355,7 @@
     "id": 45,
     "title": "Post-Deployment Performance Validation",
     "description": "Verify database and API performance after upgrade",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Testing & QA"
   },
@@ -379,7 +379,7 @@
     "id": 48,
     "title": "International Expansion Readiness",
     "description": "Minimize future development effort for new regions",
-    "status": "pending",
+    "status": "completed",
     "completedOn": null,
     "section": "Scalability"
   }
