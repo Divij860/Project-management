@@ -247,8 +247,16 @@
     "completedOn": null,
     "section": "Promotions"
   },
-  {
+   {
     "id": 32,
+    "title": "Promo Code Backend Validation",
+    "description": "Implement backend checks to prevent misuse of promo codes across countries",
+    "status": "completed",
+    "completedOn": null,
+    "section": "Promotions"
+  },
+  {
+    "id": 33,
     "title": "UAE Stripe Payment Gateway",
     "description": "Maintain Stripe for UAE payments",
     "status": "completed",
@@ -256,7 +264,7 @@
     "section": "Payments"
   },
   {
-    "id": 33,
+    "id": 34,
     "title": "India Payment Gateway Integration",
     "description": "Integrate India-supported payment gateway",
     "status": "pending",
@@ -264,17 +272,9 @@
     "section": "Payments"
   },
   {
-    "id": 34,
+    "id": 35,
     "title": "Country-Based Payment Switching",
     "description": "Switch payment gateways based on selected country",
-    "status": "pending",
-    "completedOn": null,
-    "section": "Payments"
-  },
-  {
-    "id": 35,
-    "title": "Secure Transaction Validation",
-    "description": "Validate payment security and confirmations",
     "status": "pending",
     "completedOn": null,
     "section": "Payments"
